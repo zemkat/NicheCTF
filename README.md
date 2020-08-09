@@ -9,19 +9,19 @@ Try the challenges below, and DM to confirm the flag (or if you need hints)
 ## Challenges
 Flags for these challenges look like: **NicheCTF{** ... **}**.  
 ### Crypto
-* Something's rotten in the 13 colonies...
+* [Something's rotten in the 13 colonies...](challenges/code.txt)
 
 ### Reversing
 * What matches *all* of these regular expressions?
 
 ### Steganography
-* What is this kitten hiding?
+* [What is this kitten hiding?](challenges/kitten.png)
 
 ### Forensics
-* Is this document blank?
+* [Is this document blank?](challenges/blank.docx)
 
 ### Web
-* Can you guess the word I'm thinking of?
+* [Can you guess the word I'm thinking of?](challenges/guess.html)
 * Would you like a cookie?
 
 ### Misc
