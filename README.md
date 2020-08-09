@@ -26,3 +26,4 @@ Flags for these challenges look like: **NicheCTF{** ... **}**.
 
 ### Misc
 * I shared a flag this morning... did you see it?
+* Did you notice the image credits at the end of the slides?
