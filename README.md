@@ -1,10 +1,10 @@
-# NicheCTF
+# NicheCTF (by zemkat)
 
 Welcome to the NicheCTF!
 * Slides: [slides](CTF.pptx)
 * YouTube video: (coming soon)
 
-Try the challenges below, and DM to confirm the flag (or if you need hints)
+Try the challenges below, and [DM](https://twitter.com/zemkat) to confirm the flag (or if you need hints)
 
 ## Challenges
 Flags for these challenges look like: **NicheCTF{** ... **}**.  
