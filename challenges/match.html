@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>NicheCTF flag checker page</title>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <h2>Regex Flag Checker</h2>
+    <p>This page's sole purpose is to check the regex flag for NicheCTF 2020. It is a niche job, but one this page is proud to do. Please enter your guess for the flag here: <input name="flag" size="26"/>
+
+    <ul>
+      <li><input name="regex[]" type="checkbox" id="regex1" disabled/><label for="regex1"><code class="regex">^N.*$</code></li>
+      <li><input name="regex[]" type="checkbox" id="regex2" disabled/><label for="regex2"><code class="regex">^NicheCTF{[a-zA-Z0-9_-]+}$</code></li>
+      <li><input name="regex[]" type="checkbox" id="regex3" disabled/><label for="regex3"><code class="regex">.*r3geX.*</code></li>
+      <li><input name="regex[]" type="checkbox" id="regex4" disabled/><label for="regex4"><code class="regex">\{[geruX3-]{10}-[0-9a-f]{5}\}</code></li>
+      <li><input name="regex[]" type="checkbox" id="regex5" disabled/><label for="regex5"><code class="regex">71\}</code></li>
+      <li><input name="regex[]" type="checkbox" id="regex6" disabled/><label for="regex6"><code class="regex">12</code></li>
+      <li><input name="regex[]" type="checkbox" id="regex7" disabled/><label for="regex7"><code class="regex">a7</code></li>
+      <li><input name="regex[]" type="checkbox" id="regex8" disabled/><label for="regex8"><code class="regex">2a</code></li>
+      <li><input name="regex[]" type="checkbox" id="regex9" disabled/><label for="regex9"><code class="regex">-guru</code></li>
+    </ul>
+    <script>
+      document.querySelector("[name='flag']").addEventListener("input",doit);
+      document.querySelector("[name='flag']").addEventListener("change",doit);
+      function doit() {
+        const flag = document.querySelector("[name='flag']").value;
+        const lis = document.querySelectorAll("li");
+        for (let i=0; i < lis.length; i++) {
+          const li = lis[i];
+          const checkbox = li.querySelector("[type='checkbox']");
+          const regex = new RegExp(li.querySelector(".regex").textContent);
+          const match = regex.exec(flag);
+          checkbox.checked = !!match;
+        }
+      }
+      doit();
+    </script>
+    <style>
+      [type="checkbox"] { font-size: 200%; }
+      [type="checkbox"] + label { background-color: #faa; }
+      [type="checkbox"]:checked + label { background-color: #afa; }
+    </style>
+  </body>
+</html>
