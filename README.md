@@ -1,7 +1,7 @@
 # NicheCTF
 
 Welcome to the NicheCTF!
-* Slides: [slides.pptx](slides)
+* Slides: [CTF.pptx](slides)
 * YouTube video: (coming soon)
 
 Try the challenges below, and DM to confirm the flag (or if you need hints)
