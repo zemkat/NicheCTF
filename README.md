@@ -1,6 +1,6 @@
-# NicheCTF (by zemkat)
+# NicheCTF
 
-Welcome to the NicheCTF!
+Welcome to the NicheCTF, by zemkat!
 * Slides: [slides](CTF.pptx)
 * YouTube video: (coming soon)
 
