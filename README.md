@@ -12,7 +12,7 @@ Flags for these challenges look like: **NicheCTF{** ... **}**.
 * [Something's rotten in the 13 colonies...](challenges/code.txt)
 
 ### Reversing
-* What matches *all* of these regular expressions?
+* [What matches *all* of these regular expressions?](challenges/match.html)
 
 ### Steganography
 * [What is this kitten hiding?](challenges/kitten.png)
