@@ -1,2 +1,23 @@
 # NicheCTF
-materials for the Online Unconference of Niche Interests
+
+Welcome to the NicheCTF!
+* Slides: ()
+* YouTube video: ()
+
+Try the challenges below, and DM to confirm the flag (or if you need hints)
+
+## Challenges
+Flags for these challenges look like: **NicheCTF{** ... **}**.  
+### Crypto
+* Something's rotten in the 13 colonies...
+### Reversing
+* What matches *all* of these regular expressions?
+### Steganography
+* What is this kitten hiding?
+### Forensics
+* Is this document blank?
+### Web
+* Can you guess the word I'm thinking of?
+* Would you like a cookie?
+### Misc
+* I shared a flag this morning... did you see it?
