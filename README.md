@@ -11,9 +11,6 @@ Flags for these challenges look like: **NicheCTF{** ... **}**.
 ### Crypto
 * [Something's rotten in the 13 colonies...](challenges/code.txt)
 
-### Reversing
-* [What matches *all* of these regular expressions?](challenges/match.html)
-
 ### Steganography
 * [What is this kitten hiding?](challenges/kitten.png)
 
@@ -23,6 +20,9 @@ Flags for these challenges look like: **NicheCTF{** ... **}**.
 ### Web
 * [Can you guess the word I'm thinking of?](challenges/guess.html)
 * [Would you like a cookie?](challenges/cookie.html)
+
+### Reversing
+* [What matches *all* of these regular expressions?](challenges/match.html)
 
 ### Misc
 * I shared a flag this morning... did you see it?
