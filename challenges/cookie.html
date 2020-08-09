@@ -1,0 +1,31 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>NicheCTF admin page</title>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <h2>Welcome <code class="username">guest</code>!</h2>
+    <p class="message">I'm sorry <code class="username">guest</code>, this page is only visible to NicheCTF <em>admin</em>s. Better luck getting the flag next year!
+    <script>
+      const cookie_pairs = document.cookie.split(";");
+      const cookies = {};
+      for (const pair of cookie_pairs) {
+        const [key, value] = pair.split("=");
+        cookies[key] = value;
+      }
+      if (cookies.username) {
+        for (const elt of document.querySelectorAll(".username")) {
+          elt.textContent = cookies.username;
+        }
+        if (cookies.username == "admin") {
+          const flag = String.fromCharCode(...Array.from('NhakaFRAsj:;gd=P]^\\@@PDj').map((v,k)=>v.charCodeAt(0)^k));
+          document.querySelector(".message").textContent = `My apologies for the delay, your all-powerful-ness. Your flag is ${flag}`;
+        }
+      } else {
+        document.cookie="username=guest; secure";
+      }
+    </script>
+  </body>
+</html>
